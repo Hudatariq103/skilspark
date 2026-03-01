@@ -47,7 +47,7 @@ h1, h2, h3, p, .section-title {
     margin: 40px 0 20px 0;
     text-transform: uppercase;
     /* DOUBLE NEON GLOW */
-    text-shadow: 0 0 12px rgba(107, 2, 94, 0.3), 0 0 25px rgba(158, 108, 194, 0.2);
+    text-shadow: 0 1 12px rgba(107, 2, 94, 0.3), 0 0 25px rgba(158, 108, 194, 0.2);
 }
 
 /* 5. THE CARDS: White with Deep Mulberry Outlines */

@@ -24,6 +24,9 @@ SkillSpark is an educational website designed to help students learn, build, and
 <img width="1366" height="768" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/ce3684b4-42d3-4ca7-a968-e7e051cf786c" />
 <img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/68cc9d4b-c742-41f7-a1d8-804cdc607e52" />
 <img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/db1cf012-8ea8-446a-8dae-7c0a332f6cea" />
+<img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/fdd476ea-46d5-4d44-8566-7c33d577bf20" />
+
+
 
 
 

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 1. THE BACKGROUND: Your Dark Knight Slate-Purple */
+body {
+    background: linear-gradient(135deg, #D6D0E0 0%, #C3BBD0 100%);
+    color: #1A0033; 
+    min-height: 100vh;
+}
+
+/* 2. THE NAVBAR: With the new Deep Mulberry Underside */
+header {
+    background-color: #E2DDE9; 
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #6B025E; /* NEW PINKISH-DARK PURPLE */
+    box-shadow: 0 4px 20px rgba(107, 2, 94, 0.2);
+}
+
+/* 3. NAVBAR TEXT: Deep Mulberry with Neon Glow */
+header h1,h2, .logo, header a {
+    color: #6B025E !important; /* THE NEW SHADE */
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(107, 2, 94, 0.3);
+}
+
+header a:hover {
+    background-color: rgba(107, 2, 94, 0.1);
+    color: #8B0A7E !important; /* Slightly lighter pink-purple on hover */
+    text-shadow: 0 0 15px rgba(158, 108, 194, 0.6);
+}
+
+/* 4. MAIN TITLES: Deep Mulberry Neon Glow */
+h1, h2, h3, p, .section-title {
+    color: #6B025E !important; /* THE NEW SHADE */
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    text-transform: uppercase;
+    /* DOUBLE NEON GLOW */
+    text-shadow: 0 0 12px rgba(107, 2, 94, 0.3), 0 0 25px rgba(158, 108, 194, 0.2);
+}
+
+/* 5. THE CARDS: White with Deep Mulberry Outlines */
+.card {
+    background: #FFFFFF;
+    border: 4px solid #6B025E; /* MATCHING NEW SHADE */
+    padding: 2.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 20px;
+    /* PINKISH-PURPLE SHADOW */
+    box-shadow: 0 0 15px rgba(107, 2, 94, 0.15), 12px 12px 0px rgba(26, 0, 51, 0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    border-color: #9e6cc2;
+    box-shadow: 0 0 30px rgba(158, 108, 194, 0.4);
+}
+
+/* 6. THE BUTTONS: Mulberry Gradient */
+button {
+    background: linear-gradient(180deg, #8B0A7E 0%, #6B025E 100%);
+    color: white;
+    padding: 1.1rem 2.8rem;
+    border: 2px solid #1A0033;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 0 5px 0px #1A0033, 0 0 15px rgba(107, 2, 94, 0.4); 
+    display: block;
+    margin: 30px auto;
+    transition: all 0.1s ease;
+}
+
+button:hover {
+    transform: translateY(2px);
+    box-shadow: 0 3px 0px #6B025E, 0 0 20px rgba(158, 108, 194, 0.6);
+}
+
+/* 7. THE TAGLINE: Soft Neon Lavender */
+.upgrade-text {
+    color: #9e6cc2;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 0 0 15px rgba(158, 108, 194, 0.5);
+}
+
+/* 8. FOOTER: Deep Mulberry Glow */
+footer {
+    background-color: #d6c9eb;
+    color: #1A0033;
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 4px solid #6B025E;
+    margin-top: 50px;
+}
+.card-img-top {
+    height: 150px;
+    object-fit: cover; /* This keeps the aspect ratio while filling the area */
+}
+
+
+
+
+/* Navbar Link Helpers */
+.navbar-nav { display: flex; list-style: none; gap: 20px; }
+.nav-link { color: #6B025E; font-weight: 900; text-transform: uppercase; text-decoration: none; }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | SkillSpark Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">SkillSpark</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="register.html">Registration</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 text-center">
+        <div class="container">
+            <h1 class="upgrade-text">Our Tech Courses</h1>
+            <p class="lead fw-bold" style="color: #1A0033;">Learn. Build. Launch.</p>
+        </div>
+    </section>
+
+    <main class="container mb-5">
+        <div class="row g-4">
+            
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$199</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">Web Development</h3>
+                        <p class="card-text text-muted">HTML, CSS, JS, and React Mastery.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$249</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">App Development</h3>
+                        <p class="card-text text-muted">Mobile apps with Flutter & Dart.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$149</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">UI/UX Design</h3>
+                        <p class="card-text text-muted">Prototyping and Design in Figma.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$299</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">AI & Data Science</h3>
+                        <p class="card-text text-muted">Python, SQL, and Machine Learning.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$219</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">Cloud Computing</h3>
+                        <p class="card-text text-muted">Master AWS, Azure, and Google Cloud.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 course-card">
+                    <span class="badge price-badge">$279</span>
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title fw-bold">Cybersecurity</h3>
+                        <p class="card-text text-muted">Ethical Hacking and Network Security.</p>
+                        <button class="btn btn-outline-mulberry w-100 mb-2" data-bs-toggle="modal" data-bs-target="#courseModal">View Details</button>
+                        <a href="register.html" class="btn enroll-btn w-100">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="modal fade" id="courseModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-mulberry">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold mulberry-text">Course Syllabus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Included in this course:</p>
+                    <ul>
+                        <li>40+ Hours of On-Demand Video</li>
+                        <li>5 Real-World Industry Projects</li>
+                        <li>Direct Mentorship Sessions</li>
+                        <li>Verified Certification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 mt-auto">
+        <div class="container text-center">
+            <p class="fw-bold">&copy; 2026 SkillSpark Academy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
